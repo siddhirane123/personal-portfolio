@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white text-gray-700 backdrop-blur-md z-50">
-      <div className="max-w-6xl mx-auto flex justify-center gap-8 py-4  font-medium">
+      <div className="max-w-6xl mx-auto flex justify-start px-4 overflow-auto lg:justify-center gap-8 py-4  font-medium">
         {links.map((link) => (
           <a
             key={link.name}

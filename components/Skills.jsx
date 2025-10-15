@@ -9,7 +9,7 @@ export default function Skills() {
       <h2 className="text-3xl font-bold mb-10">Skills</h2>
       <div className="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {skills.map((skill) => (
-          <div key={skill} className="p-4 bg-white rounded-lg shadow">
+          <div key={skill} className="p-4 bg-white text-black rounded-lg shadow">
             {skill}
           </div>
         ))}
